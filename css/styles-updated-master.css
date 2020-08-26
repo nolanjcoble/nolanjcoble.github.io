@@ -4011,6 +4011,7 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
+    margin-left: 11.4rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -10120,8 +10121,8 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: calc(3rem + 74px);
+  padding-bottom: 3rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10136,8 +10137,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(3rem + 104px);
+    padding-bottom: 3rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
