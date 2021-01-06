@@ -72,9 +72,16 @@ html {
 }
 
 img.headshot {
-    border-style: 
+    max-width: 200px;
+    padding: 10px
 }
 
+@media (min-width: 576px) {
+    img.headshot {
+        max-width: 250px;
+        padding: 10px
+    }
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -10135,7 +10142,7 @@ h3 {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .masthead {
     padding-top: calc(3rem + 104px);
     padding-bottom: 3rem;
@@ -10304,11 +10311,8 @@ li {
     }
 
     .bg-primary {
-      background-color: rgb(40,40,40) !important;
+      background-color: rgb(30,30,30) !important;
     }
 
-    .page-section {
-      border-top: 2px solid black;
-    }
 
 }
