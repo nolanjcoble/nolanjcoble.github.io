@@ -55,20 +55,17 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .quics-div {
-    height: inherit;
-    width: auto;
-    border-radius: 50%;
-    padding: 10px;
-}
-.quics-div:hover {
-    filter: invert(100%);
-    transition: ease-in 0.1s, ease-out 0.1s
-}
-.QUICS-logo {
     height: 100%;
+}
+
+.QUICS-logo {
+    height: 80%;
     width: auto;
-    vertical-align: middle;
-    margin-top: -10%
+}
+
+.btn:hover .QUICS-logo {
+    transition: ease-in 0.5s, ease-out 0.5s;
+    filter: invert(1);
 }
 
 img.headshot {
@@ -191,12 +188,16 @@ sup {
 }
 
 a {
-  color: #26495c;
+  color: #c66b3d;
   text-decoration: none;
   background-color: transparent;
 }
+
+a.footer-link {
+  color: #26495c;
+}
+
 a:hover {
-  color: #c78252;
   text-decoration: underline;
 }
 
@@ -4018,7 +4019,7 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-    margin-left: 11.4rem;
+    margin-left: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -9984,7 +9985,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10248,12 +10249,13 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #26495c;
+  border-radius: 25px 25px 0 0;
+  background-color: #c66b3d;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #26495c;
 }
 
 li {
