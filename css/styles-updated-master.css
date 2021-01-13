@@ -142,6 +142,21 @@ dl {
   margin-bottom: 1rem;
 }
 
+ol:first-of-type {
+   counter-reset: list;
+}
+
+ol > li {
+    list-style: none;
+    position: relative
+}
+ol > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list;
+    position: absolute;
+    left: -2rem
+}
+
 ol ol,
 ul ul,
 ol ul,
@@ -2495,8 +2510,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #26495c;
+  border-color: #26495c;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -9985,7 +10000,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10000,12 +10015,12 @@ h3 {
 
 .page-section .page-section-subheading {
   font-size: 1.8rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-subheading {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -10170,22 +10185,22 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #c66b3d;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -10315,6 +10330,9 @@ li {
     .bg-primary {
       background-color: rgb(30,30,30) !important;
     }
-
+    
+    .modal-content {
+      background-color: rgb(30,30,30) !important;
+    }
 
 }
