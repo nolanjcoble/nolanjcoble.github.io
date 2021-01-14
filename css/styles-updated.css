@@ -154,7 +154,7 @@ ol > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
     position: absolute;
-    left: -2rem
+    left: -3rem
 }
 
 
@@ -2920,13 +2920,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
+  color: #26495c;
+  border-color: #26495c;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #26495c;
+  border-color: #26495c;
 }
 .btn-outline-dark:focus, .btn-outline-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
@@ -10307,7 +10307,61 @@ li {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+}
 
+.resume-item {
+  padding: 0 0 1.5rem 1.5rem;
+  margin-top: -2px;
+  border-left: 0.2rem solid #c66b3d;
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.resume-item h5 {
+  font-size: 1.4rem;
+  background: rgba(30,30,30,0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+
+
+.resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  left: -0.85rem;
+  top: -0.1rem;
+  background: #fff;
+  border: 0.2rem solid #c66b3d;
+}
+/*--------------------------*/
 
 @media (prefers-color-scheme: dark) {
     body{background-color: rgb(40,40,40);
@@ -10336,5 +10390,17 @@ li {
       background-color: rgb(30,30,30) !important;
     }
 
-
+    .resume-item::before {
+        background-color: rgb(40,40,40) !important;
+    }
+    .resume-item h5 {
+      background: rgba(30,30,30,1);
+      color: white
+    }
+    
+    .btn-outline-dark {
+        background-color: rgb(30,30,30);
+        border-color: rgb(30,30,30);
+        color: white
+    }
 }
