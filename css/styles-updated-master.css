@@ -37,7 +37,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Avenire" /*"Lato"*/, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -2013,6 +2013,10 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+    
+    body {
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -10362,6 +10366,14 @@ li {
   border: 0.2rem solid #c66b3d;
 }
 /*--------------------------*/
+.resume-item.space-adjust {
+    padding-bottom: 7.03em;
+}
+@media (max-width: 992px) {
+    .resume-item.space-adjust {
+    padding-bottom: 0em;
+}
+}
 
 @media (prefers-color-scheme: dark) {
     body{background-color: rgb(40,40,40);

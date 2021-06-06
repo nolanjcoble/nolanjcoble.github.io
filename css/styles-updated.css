@@ -86,7 +86,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Avenir"/*Lato*/, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -607,6 +607,8 @@ pre code {
     max-width: 720px;
   }
 }
+
+
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -2014,6 +2016,10 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  
+    body {
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -10360,6 +10366,16 @@ li {
   top: -0.1rem;
   background: #fff;
   border: 0.2rem solid #c66b3d;
+}
+
+
+.resume-item.space-adjust {
+    padding-bottom: 7.03em;
+}
+@media (max-width: 992px) {
+    .resume-item.space-adjust {
+    padding-bottom: 0em;
+}
 }
 /*--------------------------*/
 
