@@ -10367,7 +10367,12 @@ li {
 }
 /*--------------------------*/
 .resume-item.space-adjust {
-    padding-bottom: 1.65em;
+    padding-bottom: 2.85em;
+}
+@media (max-width: 1200px) {
+    .resume-item.space-adjust {
+    padding-bottom: 2.65em;
+}
 }
 @media (max-width: 992px) {
     .resume-item.space-adjust {
