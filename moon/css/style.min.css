@@ -205,7 +205,7 @@ a {
   border: none !important; }
 
 #gtco-header-navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -233,7 +233,7 @@ navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border
   font-size: 3rem; }
 
 .not-on-top #gtco-header-navbar {
-  position: sticky;
+  position: absolute;
   max-width: 1024px;
   margin: 0 auto;
   left: 0;
