@@ -4,7 +4,7 @@
  */
 html {
   font-size: 62.5%;
-/*  overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 body {
@@ -233,7 +233,7 @@ navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border
   font-size: 3rem; }
 
 .not-on-top #gtco-header-navbar {
-  position: fixed;
+  position: sticky;
   max-width: 1024px;
   margin: 0 auto;
   left: 0;
