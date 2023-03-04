@@ -41,8 +41,6 @@ body {
 
 .boxed-page {
   margin: 0 auto;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
   position: relative;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
   border-radius: 5px; }
@@ -205,14 +203,18 @@ a {
   border: none !important; }
 
 #gtco-header-navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 11;
-  transition: background-color .0s ease-in-out;
+  transition: background-color .3s ease-in-out;
   border-top-right-radius: 5px;
-  border-top-left-radius: 5px; }
+  border-top-left-radius: 5px; 
+    background-color: #fff;
+    width: inherit;
+    margin: inherit
+}
 
 navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border-radius:3px;margin:2px -3px;padding:6px 3px}
 .navbar-brand {
@@ -232,8 +234,9 @@ navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border
 .navbar-toggler {
   font-size: 3rem; }
 
+/*
 .not-on-top #gtco-header-navbar {
-  position: absolute;
+  position: fixed;
   max-width: 1024px;
   margin: 0 auto;
   left: 0;
@@ -243,6 +246,7 @@ navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 15px 0px;
   border-radius: 0px; }
+*/
 
 .jumbotron {
   background-color: #fff;
