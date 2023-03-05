@@ -197,6 +197,11 @@ a {
     border-bottom-color: slateblue;
     color: rosybrown!important; 
       border-bottom: solid 1px;   }
+
+a.no-underline:hover {
+    border-bottom-color: slateblue;
+    color: rosybrown!important; 
+      border-bottom: solid 0px;   }
     a:hover strong {}
 
 
