@@ -692,8 +692,6 @@ navbar-search{width:100%;box-sizing:border-box;border:1px solid #78788c80;border
 
 
 
-
-
 .jumbotron {
   background-color: #fff;
   padding-top: 80px;
@@ -936,27 +934,29 @@ footer {
 .blog-content .img.float-right {
   margin: 15px 0 15px 15px; }
 
+
 @media (min-width: 768px) and (max-width: 1200px) {
   .boxed-page {
     margin-right: 30px;
     margin-left: 30px; }
-  /*.not-on-top #gtco-header-navbar {
+.not-on-top #gtco-header-navbar {
     margin-right: 30px;
-    margin-left: 30px; }*/ }
+    margin-left: 30px; }}
 
-/*@media (max-width: 992px) {
+@media (max-width: 992px) {
   #navbar-nav-header .navbar-nav {
-    margin-top: 15px; }
+    margin-top: 15px; 
+    }
   #gtco-header-navbar {
     padding-left: 15px;
-    background-color: #fff; } }*/
+    background-color: #fff; } }
 
 @media (max-width: 767px) {
   .boxed-page {
-    margin: 4rem 15px; }
-  /*.not-on-top #gtco-header-navbar {
+    margin: 0rem 15px; }
+.not-on-top #gtco-header-navbar {
     margin-right: 15px;
-    margin-left: 15px; }*/
+    margin-left: 15px; }
   .counter-item {
     margin-bottom: 40px; 
     }
@@ -969,5 +969,6 @@ footer {
     width: 100%; }
   .card-deck {
     flex-direction: column; }}
+
 
     
