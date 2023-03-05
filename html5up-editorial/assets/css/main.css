@@ -2172,8 +2172,8 @@ button,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px slateblue;
-  padding: 10% 0 1em 0;
-  position: relative; }
+  padding: 5rem 0 1em 0;
+  position: relative;}
   #header > * {
     -moz-flex: 1;
     -webkit-flex: 1;
