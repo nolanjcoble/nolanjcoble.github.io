@@ -10367,11 +10367,11 @@ li {
 }
 /*--------------------------*/
 .resume-item.space-adjust {
-    padding-bottom: 12em;
+    padding-bottom: 1.4em;
 }
 @media (max-width: 1200px) {
     .resume-item.space-adjust {
-    padding-bottom: 9.5em;
+    padding-bottom: 3.2em;
 }
 }
 @media (max-width: 992px) {
