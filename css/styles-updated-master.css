@@ -10012,8 +10012,8 @@ h3 {
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -10168,8 +10168,8 @@ h3 {
     padding-bottom: 3rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
