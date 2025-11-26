@@ -10367,7 +10367,7 @@ li {
 }
 /*--------------------------*/
 .resume-item.space-adjust {
-    padding-bottom: 1.4em;
+    padding-bottom: 0.5em;
 }
 @media (max-width: 1200px) {
     .resume-item.space-adjust {
